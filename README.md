@@ -1,7 +1,7 @@
 # Postal Delivery Management System
 
 ## Overview
-This Postal Delivery Management System is a web-based application that simplifies postal services by allowing customers to register, send postcards, and track delivery status, while enabling postmen to view and update posts assigned to their post offices. Admins manage post offices, handle customer data, and monitor deliveries.
+This Postal Delivery Management System is a web-based application that simplifies postal services by allowing customers to register, send postcards, and track delivery status, while enabling postmen to view and update posts assigned to their post offices. Admins manage post offices.
 
 ## Tech Stack
 - **Backend:** Java, Servlets
@@ -11,7 +11,7 @@ This Postal Delivery Management System is a web-based application that simplifie
 - **Server:** Apache Tomcat
 
 ## Features
-- **Admin functionalities:** Login, add/remove post offices, view/manage post offices.
+- **Admin functionalities:** Login, add/remove post offices.
 - **Customer functionalities:** Registration, login, send/track postcards, view received postcards.
 - **Postman functionalities:** Login, view assigned posts, mark postcards as delivered.
 
