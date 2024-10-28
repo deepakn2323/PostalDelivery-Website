@@ -87,7 +87,7 @@ public class CustomerServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		Customer sender = (Customer) session.getAttribute("customer");
 		String receiverName = request.getParameter("receiverName");
-		String receiverAddress = request.getParameter("receiverAddress"); // Ensure this is captured
+		String receiverAddress = request.getParameter("receiverAddress");
 		String receiverCity = request.getParameter("receiverCity");
 		String message = request.getParameter("message");
 
